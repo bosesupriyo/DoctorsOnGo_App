@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/appointment.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  
+    
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">DoctorOnGo App</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">DoctorOnGo App</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link active" href="appointment.html">Appointment</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="registration.html">Registration</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="login.html">Log In</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Log Out</a>
+                  </li>
+              </ul>
+              <!-- <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form> -->
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--NAVBAR ENDS HERE-->
+      <br><br><br><br>
+
+      <h1><font color= "green"> OUR DOCTORS</font></h1>
+
+
+
+
+
+      <!--BootStrap Code-->
+
+          <!-- first part -->
+      <div class="container mt-5 mb-3">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card p-3 mb-2">
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row align-items-center">
+                            <!-- <div class="icon"> 
+                              <i class="bx bxl-mailchimp"></i> 
+                            </div> -->
+
+                            
+                            <!-- Doctor 01 -->
+
+                            <div class="ms-2 c-details">
+                                <h6 class="mb-0">Senior Doctor</h6> <span>MBBS, MSC, MD, MS</span>
+                            </div>
+                        </div>
+                        <div class="badge"> <span>Available</span> </div>
+                    </div>
+                    <div class="mt-5">
+                        <h3 class="heading">Dr. Vikash Rao <br>(Cardiologist)</h3>
+                        <div class="mt-5">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="mt-3"> <span class="text1">25+ Years Of Experiance <br><span class="text2"> 50 capacity <br> 10 remaining</span></span> </div>
+                            <a href="#link">
+                            <button class="btn btn-outline-danger btn-rounded btn-block my-4 z-depth-0" 
+                            type="submit">Book Now</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Doctor 02 -->
+
+            <div class="col-md-4">
+                <div class="card p-3 mb-2">
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row align-items-center">
+                            <!-- <div class="icon"> <i class="bx bxl-dribbble"></i> </div> -->
+                            <div class="ms-2 c-details">
+                              <h6 class="mb-0">Senior Doctor</h6> <span>MBBS, DM, MS</span>
+                            </div>
+                        </div>
+                        <div class="badge"> <span>Available</span> </div>
+                    </div>
+                    <div class="mt-5">
+                        <h3 class="heading">Dr. Suman Mondal<br>(Gastroenterologists)</h3>
+                        <div class="mt-5">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="mt-3"> <span class="text1">16+ Years Of Experiance <br><span class="text2"> 50 capacity <br> 12 remaining</span></span> </div>
+                            <a href="#link">
+                              <button class="btn btn-outline-danger btn-rounded btn-block my-4 z-depth-0 " 
+                              type="submit">Book Now</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+              <!-- Doctor 03 -->
+            <div class="col-md-4">
+                <div class="card p-3 mb-2">
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row align-items-center">
+                          <!-- <div class="icon"> <i class="bx bxl-dribbble"></i> </div> -->
+                          <div class="ms-2 c-details">
+                            <h6 class="mb-0">Senior Doctor</h6> <span>MBBS, MD, MSC</span>
+                          </div>
+                      </div>
+                      <div class="badge"> <span>Available</span> </div>
+                  </div>
+                  <div class="mt-5">
+                      <h3 class="heading">Dr. Subhasish Baidya<br>(Child Specialist)</h3>
+                      <div class="mt-5">
+                          <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <div class="mt-3"> <span class="text1">28+ Years Of Experiance <br><span class="text2"> 50 capacity <br> 08 remaining</span></span> </div>
+                          <a href="#link">
+                            <button class="btn btn-outline-danger btn-rounded btn-block my-4 z-depth-0" 
+                            type="submit">Book Now</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- DOCTOR 04 -->
+    <div class="container mt-5 mb-3">
+      <div class="row">
+          <div class="col-md-4">
+              <div class="card p-3 mb-2">
+                  <div class="d-flex justify-content-between">
+                      <div class="d-flex flex-row align-items-center">
+                          <!-- <div class="icon"> 
+                            <i class="bx bxl-mailchimp"></i> 
+                          </div> -->
+
+
+                          <div class="ms-2 c-details">
+                              <h6 class="mb-0">Senior Doctor</h6> <span>MBBS, MD, MS</span>
+                          </div>
+                      </div>
+                      <div class="badge"> <span>Available</span> </div>
+                  </div>
+                  <div class="mt-5">
+                      <h3 class="heading">Dr. Nandini Majumder<br>(Dermatologists.)</h3>
+                      <div class="mt-5">
+                          <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <div class="mt-3"> <span class="text1">10+ Years Of Experiance <br><span class="text2"> 50 capacity <br> 20 remaining</span></span> </div>
+                          <a href="#link">
+                            <button class="btn btn-outline-danger btn-rounded btn-block my-4 z-depth-0" 
+                            type="submit">Book Now</button></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+          <!-- Doctor 05 -->
+          <div class="col-md-4">
+              <div class="card p-3 mb-2">
+                  <div class="d-flex justify-content-between">
+                      <div class="d-flex flex-row align-items-center">
+                          <!-- <div class="icon"> <i class="bx bxl-dribbble"></i> </div> -->
+                          <div class="ms-2 c-details">
+                            <h6 class="mb-0">Senior Doctor</h6> <span>MBBS, MD, MS, MSC</span>
+                          </div>
+                      </div>
+                      <div class="badge"> <span>Available</span> </div>
+                  </div>
+                  <div class="mt-5">
+                      <h3 class="heading">Dr. Pradip Kumar Das<br>(Ophthalmologists)</h3>
+                      <div class="mt-5">
+                          <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <div class="mt-3"> <span class="text1">20+ Years Of Experiance <br><span class="text2"> 50 capacity <br> 09 remaining</span></span> </div>
+                          <a href="#link">
+                            <button class="btn btn-outline-danger btn-rounded btn-block my-4 z-depth-0" 
+                            type="submit">Book Now</button></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+          <!-- Doctor 06 -->
+
+          <div class="col-md-4">
+              <div class="card p-3 mb-2">
+                  <div class="d-flex justify-content-between">
+                      <div class="d-flex flex-row align-items-center">
+                        <!-- <div class="icon"> <i class="bx bxl-dribbble"></i> </div> -->
+                        <div class="ms-2 c-details">
+                          <h6 class="mb-0">Senior Doctor</h6> <span>MBBS, MSC, MD</span>
+                        </div>
+                    </div>
+                    <div class="badge"> <span>Available</span> </div>
+                </div>
+                <div class="mt-5">
+                    <h3 class="heading">Dr. Avijit Ghosh<br>(gynecologists)</h3>
+                    <div class="mt-5">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 92%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="mt-3"> <span class="text1">27+ Years Of Experiance <br><span class="text2"> 50 capacity <br> 23 remaining</span></span> </div>
+                        <a href="#link">
+                          <button class="btn btn-outline-danger btn-rounded btn-block my-4 z-depth-0" 
+                          type="submit">Book Now</button></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Doctor 07 -->
+
+    <div class="container mt-5 mb-3">
+      <div class="row">
+          <div class="col-md-4">
+              <div class="card p-3 mb-2">
+                  <div class="d-flex justify-content-between">
+                      <div class="d-flex flex-row align-items-center">
+                          <!-- <div class="icon"> 
+                            <i class="bx bxl-mailchimp"></i> 
+                          </div> -->
+
+
+                          <div class="ms-2 c-details">
+                              <h6 class="mb-0">Junior Doctor</h6> <span>MBBS, MSC</span>
+                          </div>
+                      </div>
+                      <div class="badge"> <span>Available</span> </div>
+                  </div>
+                  <div class="mt-5">
+                      <h3 class="heading">Dr. Abhijeet Naskar<br>(Urologists)</h3>
+                      <div class="mt-5">
+                          <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <div class="mt-3"> <span class="text1">7+ Years Of Experiance <br><span class="text2"> 50 capacity <br> 20 remaining</span></span> </div>
+                          <a href="#link">
+                            <button class="btn btn-outline-danger btn-rounded btn-block my-4 z-depth-0" 
+                            type="submit">Book Now</button></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+            <!-- Doctor 08 -->
+          <div class="col-md-4">
+              <div class="card p-3 mb-2">
+                  <div class="d-flex justify-content-between">
+                      <div class="d-flex flex-row align-items-center">
+                          <!-- <div class="icon"> <i class="bx bxl-dribbble"></i> </div> -->
+                          <div class="ms-2 c-details">
+                            <h6 class="mb-0">Senior Doctor</h6> <span>MBBS, MSC, MD, MS, SSM</span>
+                          </div>
+                      </div>
+                      <div class="badge"> <span>Available</span> </div>
+                  </div>
+                  <div class="mt-5">
+                      <h3 class="heading">Dr.   Arup Sen<br>(Pulmonologists)</h3>
+                      <div class="mt-5">
+                          <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <div class="mt-3"> <span class="text1">18+ Years Of Experiance <br><span class="text2"> 50 capacity <br> 15 remaining</span></span> </div>
+                          <a href="#link">
+                            <button class="btn btn-outline-danger btn-rounded btn-block my-4 z-depth-0" 
+                            type="submit">Book Now</button></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+
+
+            <!-- Doctor 10 -->
+          
+          <div class="col-md-4">
+            <div class="card p-3 mb-2">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-row align-items-center">
+                        <!-- <div class="icon"> <i class="bx bxl-dribbble"></i> </div> -->
+                        <div class="ms-2 c-details">
+                          <h6 class="mb-0">Junior Doctor</h6> <span>MBBS, MSC</span>
+                        </div>
+                    </div>
+                    <div class="badge"> <span>Available</span> </div>
+                </div>
+                <div class="mt-5">
+                    <h3 class="heading">Dr. Rahul Halder<br>(ENT)</h3>
+                    <div class="mt-5">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 680%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="mt-3"> <span class="text1">7+ Years Of Experiance <br><span class="text2"> 50 capacity <br> 20 remaining</span></span> </div>
+                        <a href="#link">
+                          <button class="btn btn-outline-danger btn-rounded btn-block my-4 z-depth-0" 
+                          type="submit">Book Now</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Doctor 10 -->
+
+          <div class="col-md-4">
+              <div class="card p-3 mb-2">
+                  <div class="d-flex justify-content-between">
+                      <div class="d-flex flex-row align-items-center">
+                        <!-- <div class="icon"> <i class="bx bxl-dribbble"></i> </div> -->
+                        <div class="ms-2 c-details">
+                          <h6 class="mb-0">Junior Doctor</h6> <span>MBBS, MSC</span>
+                        </div>
+                    </div>
+                    <div class="badge"> <span>Available</span> </div>
+                </div>
+                <div class="mt-5">
+                    <h3 class="heading">Dr. Diptesh Bose<br>(Psychiatrists)</h3>
+                    <div class="mt-5">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="mt-3"> <span class="text1">08+ Years Of Experiance <br><span class="text2"> 50 capacity <br> 30 remaining</span></span> </div>
+                        <a href="#link">
+                          <button class="btn btn-outline-danger btn-rounded btn-block my-4 z-depth-0" 
+                          type="submit">Book Now</button></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- TEST area -->
+<br><br><br>
+<h1><font color= "green"> OUR SERVICES</font></h1>
+<br><br><br>
+<div class="container">
+
+  <!-- Card deck -->
+  <div class="card-deck row">
+  
+    <div class="col-xs-12 col-sm-6 col-md-4">
+    <!-- Card -->
+    <div class="card">
+  
+      <!--Card image-->
+      <div class="view overlay">
+        <img class="card-img-top" src="../images/ct.webp" alt="Card image cap">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+  
+      <!--Card content-->
+      <div class="card-body">
+  
+        <!--Title-->
+        <h4 class="card-title">CT Scan.</h4>
+        <!--Text-->
+        <p class="card-text">A computed tomography (CT) scan is a type of x-ray that creates 2- or 3-dimensional images of your body. It is also known as a computed axial .</p>
+        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+        <button type="button" class="btn btn-light-blue btn-md">BOOK SLOT</button>
+  
+      </div>
+  
+    </div>
+    <!-- Card -->
+    </div>
+  
+    <div class="col-xs-12 col-sm-6 col-md-4">
+    <!-- Card -->
+    <div class="card mb-4">
+  
+      <!--Card image-->
+      <div class="view overlay">
+        <img class="card-img-top" src="../images/eeeg.jpg" alt="Card image cap">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+  
+      <!--Card content-->
+      <div class="card-body">
+  
+        <!--Title-->
+        <h4 class="card-title">EEG</h4>
+        <!--Text-->
+        <p class="card-text">An electroencephalogram, or EEG, is a test measures the electrical activity of your brain. An EEG is non-invasive and does not hurt.</p>
+        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+        <button type="button" class="btn btn-light-blue btn-md">BOOK SLOT</button>
+  
+      </div>
+  
+    </div>
+    <!-- Card -->
+  </div>
+  
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    <!-- Card -->
+    <div class="card mb-4">
+  
+      <!--Card image-->
+      <div class="view overlay">
+        <img class="card-img-top" src="../images/eye2.jpg" alt="Card image cap">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+  
+      <!--Card content-->
+      <div class="card-body">
+  
+        <!--Title-->
+        <h4 class="card-title">Eye tests</h4>
+        <!--Text-->
+        <p class="card-text">Regular eye tests can detect and diagnose eye problems in the early stages, such as:
+
+          glaucoma,
+          cataracts and,
+          macular degeneration</p>
+        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+        <button type="button" class="btn btn-light-blue btn-md">BOOK SLOT</button>
+  
+      </div>
+  
+    </div>
+    <!-- Card -->
+  </div>
+  
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    <!-- Card -->
+    <div class="card">
+  
+      <!--Card image-->
+      <div class="view overlay">
+        <img class="card-img-top" src="../images/ecg2.webp" alt="Card image cap">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+  
+      <!--Card content-->
+      <div class="card-body">
+  
+        <!--Title-->
+        <h4 class="card-title">Electrocardiogram (ECG)</h4>
+        <!--Text-->
+        <p class="card-text">An ECG is a graph of your heart's electrical activity. It’s a simple, safe and painless test. There’s no risk of being electrocuted.</p>
+        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+        <button type="button" class="btn btn-light-blue btn-md">BOOK SLOT</button>
+  
+      </div>
+  
+    </div>
+    <!-- Card -->
+  </div>
+   
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    <!-- Card -->
+    <div class="card mb-4">
+  
+      <!--Card image-->
+      <div class="view overlay">
+        <img class="card-img-top" src="../images/mri.jpg" alt="Card image cap">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+  
+      <!--Card content-->
+      <div class="card-body">
+  
+        <!--Title-->
+        <h4 class="card-title">MRI scan</h4>
+        <!--Text-->
+        <p class="card-text">A magnetic resonance imaging (MRI) scan takes detailed pictures of the inside of your body.  </p>
+        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+        <button type="button" class="btn btn-light-blue btn-md">BOOK SLOT</button>
+  
+      </div>
+  
+    </div>
+    <!-- Card -->
+  </div>
+  
+  <div class="col-xs-12 col-sm-6 col-md-4">  
+    <!-- Card -->
+    <div class="card mb-4">
+  
+      <!--Card image-->
+      <div class="view overlay">
+        <img class="card-img-top" src="../images/xray.jpg" alt="Card image cap">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+  
+      <!--Card content-->
+      <div class="card-body">
+  
+        <!--Title-->
+        <h4 class="card-title">X-rays</h4>
+        <!--Text-->
+        <p class="card-text">An x-ray is a type of radiation used to create a picture of the inside of the body.X-rays can be used to diagnose injury.</p>
+        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+        <button type="button" class="btn btn-light-blue btn-md">BOOK SLOT</button>
+  
+      </div>
+  
+    </div>
+    <!-- Card -->
+  </div>
+  
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    <!-- Card -->
+    <div class="card mb-4">
+  
+      <!--Card image-->
+      <div class="view overlay">
+        <img class="card-img-top" src="../images/hearing.jpg" alt="Card image cap">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+  
+      <!--Card content-->
+      <div class="card-body">
+  
+        <!--Title-->
+        <h4 class="card-title">Hearing Test</h4>
+        <!--Text-->
+        <p class="card-text">A hearing test checks how well you can hear different sounds. It is performed by an audiologist. They can tell from the results of the test what type of hearing loss you have and how severe it is.</p>
+        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+        <button type="button" class="btn btn-light-blue btn-md">BOOK SLOT</button>
+  
+      </div>
+  
+    </div>
+    <!-- Card -->
+  </div>  
+  
+    
+  </div>
+  <!-- Card deck -->
+    
+  </div>
+
+
+
+<!-- end test area -->
+
+<br><br>
+
+
+
+
+
+
+<!-- form start -->
+
+
+
+<div id="link">
+<div class="contact-section">
+  <br><br>
+  <h1>Book Appointment</h1>
+  <br>
+  <!-- <div class="border"></div> -->
+  <form class="contact-form" action="index.html" method="post">
+
+
+    <input type="text" class="contact-form-text" >
+    <label class="form-label" for="form3Example4cdg">Your Name</label>
+
+
+    <input type="email" class="contact-form-text" >
+    <label class="form-label" for="form3Example4cdg">Your Email</label>
+
+
+
+    <input type="text" class="contact-form-text">
+    <label class="form-label" for="form3Example4cdg">Your Phone</label>
+
+
+    <select class="contact-form-text"  >
+          <option value="1" disabled>Choose Slot</option>
+          <option value="2" selected>Dr. Vikash Rao</option>
+          <option value="3">Dr. Suman Mondal</option>
+          <option value="4">Dr. Subhasish Baidya</option>
+          <option value="5">Dr. Nandini Mazumdar</option>
+          <option value="6">Dr. Pradip kumar Das</option>
+          <option value="7">Dr. Avijit Ghosh</option>
+          <option value="8">Dr. Abhijeet Naskar</option>
+          <option value="9">Dr. Arup Sen</option>
+          <option value="10">Dr. Rahul Halder</option>
+          <option value="11">Dr. Deeptesh Bose</option>
+    </select>
+    <label class="form-label" for="form3Example4cdg">Doctor's Name</label>
+  
+
+
+    <textarea class="contact-form-text" placeholder="Your Health Issue"></textarea>
+    <br>
+    
+
+
+    <input type="date" id="form3Example4cdg" class="contact-form-text" required>
+      <label class="form-label" for="form3Example4cdg">Choose Date</label>
+
+
+
+      <select class="contact-form-text" aria-label="Default select example">
+        <option value="1" disabled>Choose Slot</option>
+        <option value="2" selected>Morning</option>
+        <option value="3">Day</option>
+        <option value="4">Afternoon</option>
+        <option value="5">Evening</option>
+    </select>
+    <label class="form-label" for="form3Example4cdg">Choose Slot</label>
+
+
+    <input type="time" id="form3Example4cdg" class="contact-form-text" required>
+      <label class="form-label" for="form3Example4cdg">Slot Time</label>
+
+
+    <input class="contact-form-text" id="formFileLg" type="file" />
+      <div class="small text-muted mt-2">Upload your Report or any other perscribed
+          medicines relevant file. Max file
+          size 50 MB</div>
+      <label class="form-label" for="form3Example1cg">Report or Prescribed
+          Medicines</label>
+
+        <br>
+
+      <div class="form-check d-flex justify-content-center mb-5">
+            <input class="form-check-input me-2" type="checkbox" value=""
+                id="form2Example3cg" />
+            <label class="form-check-label" for="form2Example3g">
+                I agree all statements in <a href="#!" class="text-body"><u>Terms of
+                        service</u></a>
+            </label>
+        </div>
+
+    <button type="button"
+        class="contact-form-btn"
+        data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book
+        Now</button>
+
+
+
+    
+    <!-- <input type="submit" class="contact-form-btn" value="Send"> -->
+
+  </form>
+</div>
+</div>
+
+<!-- Form end -->
+
+
+
+
+
+
+<br><br><br>
+
+
+<!-- BRANCHES -->
+
+
+
+
+<h1><font color= "green"> OUR BRANCHES</font></h1> 
+
+  <br>
+
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="../images/hos2.webp"></div>
+        <div class="card_content">
+          <h2 class="card_title">KOLKATA.</h2>
+          <p class="card_text">KASI BOSE LANE. <br> HATI BAGAN<br> contact - 9248578746 </p>
+          <button class="btn card_btn">Read More</button>
+        </div>
+      </div>
+    </li>
+
+
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="../images/kol4.jpg"></div>
+        <div class="card_content">
+          <h2 class="card_title">BARRACKPORE.</h2>
+          <p class="card_text">NONACHANDAN PUKUR.  JRR. ROAD<br>contact-5632412148<br> </p>
+          <button class="btn card_btn">Read More</button>
+        </div>
+      </div>
+    </li>
+
+
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="../images/HS3.jpg"></div>
+        <div class="card_content">
+          <h2 class="card_title">SEALDAH</h2>
+          <p class="card_text">COLLEGE STREET <br> NEAR COLLEGE SQUARE POND</p>
+          <button class="btn card_btn">Read More</button>
+        </div>
+      </div>
+    </li>
+
+
+    
+  </ul>
+
+
+
+
+
+<!-- BRANCHES ENDS -->
+
+
+
+
+
+
+      <!-- FOOTER STARTS HERE -->
+
+<footer class="footer-section">
+  <div class="container">
+      <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <div class="cta-text">
+                          <h4>Find us</h4>
+                          <span>1010 Avenue, sw 54321, chandigarh</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-phone"></i>
+                      <div class="cta-text">
+                          <h4>Call us</h4>
+                          <span>9876543210 0</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="far fa-envelope-open"></i>
+                      <div class="cta-text">
+                          <h4>Mail us</h4>
+                          <span>mail@info.com</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer-content pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-lg-4 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-logo">
+                          <a href="index.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" class="img-fluid" alt="logo"></a>
+                      </div>
+                      <div class="footer-text">
+                          <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                          elit,Lorem ipsum dolor sit amet.</p>
+                      </div>
+                      <div class="footer-social-icon">
+                        <span>Follow us</span>
+                        <a href="https://twitter.com/"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+                        <a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp" style="font-size:24px"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fa fa-youtube-play" style="font-size:24px"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fa fa-facebook-square" style="font-size:24px"></i></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3>Useful Links</h3>
+                      </div>
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">about</a></li>
+                          <li><a href="#">services</a></li>
+                          <li><a href="#">portfolio</a></li>
+                          <li><a href="#">Contact</a></li>
+                          <li><a href="#">About us</a></li>
+                          <li><a href="#">Our Services</a></li>
+                          <li><a href="#">Expert Team</a></li>
+                          <li><a href="#">Contact us</a></li>
+                          <li><a href="#">Latest News</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3>Subscribe</h3>
+                      </div>
+                      <div class="footer-text mb-25">
+                          <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                      </div>
+                      <div class="subscribe-form">
+                          <form action="#">
+                              <input type="text" placeholder="Email Address">
+                              <button><i class="fab fa-telegram-plane"></i></button>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="copyright-area">
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                  <div class="copyright-text">
+                    <p>Copyright &copy; 2018, All Right Reserved <a href="../index.html">DoctorOnGo</a></p>
+                  </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                  <div class="footer-menu">
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">Terms</a></li>
+                          <li><a href="#">Privacy</a></li>
+                          <li><a href="#">Policy</a></li>
+                          <li><a href="#">Contact</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<!-- FOOTER ENDS HERE -->
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoctorOnGo | Registration</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/registration.css">
+    <style>
+        body{
+            background-image: url("../images/hero.jpg");
+            background-size: cover;
+        }
+         .registrationbox{
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 10rem;
+         }
+
+    </style>
+</head>
+
+<body>
+    <!--NAV STARTS HERE-->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">DoctorOnGo App</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">My Doctor</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    
+                      <li class="nav-item">
+                        <a class="nav-link " href="appointment.html">Appointment</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="registration.html">Registration</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="login.html">Log In</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Log Out</a>
+                      </li>
+                  </ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--NAV ENDS HERE-->
+
+
+        <!--<form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <label for="validationCustom01" class="form-label">First name</label>
+              <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustomUsername" class="form-label">Username</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                  Please choose a username.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">City</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom04" class="form-label">State</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>...</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid state.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom05" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="validationCustom05" required>
+              <div class="invalid-feedback">
+                Please provide a valid zip.
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
+      </div> -->
+
+<br>
+<br>
+<!-- Bootstrap code -->
+<div class="container">
+  <section class="mx-auto my-5" style="max-width: 23rem;">
+      
+    <div class="card card-form mt-2 mb-4">
+      <div class="card-body rounded-top pink darken-4">
+        <h3 class="font-weight-bold text-center text-uppercase text-white my-4"> <font color="black"> Sign up</font></h3>
+        <form class="pb-5 px-2" _lpchecked="1">
+          <div class="d-flex justify-content-start align-items-center mb-4">
+            <div class="form-outline form-white w-100">
+              <input type="text" id="form1Example1" class="form-control" />
+              <label class="form-label" for="form1Example1">First name</label>
+            </div>
+          </div>
+
+
+
+          <div class="d-flex justify-content-start align-items-center mb-4">
+            <div class="form-outline form-white w-100">
+              <input type="text" id="form1Example1" class="form-control" />
+              <label class="form-label" for="form1Example1">Middle name</label>
+            </div>
+          </div>
+
+
+
+          <div class="d-flex justify-content-start align-items-center mb-4">
+            <div class="form-outline form-white w-100">
+              <input type="text" id="form1Example2" class="form-control" />
+              <label class="form-label" for="form1Example2">Last name</label>
+            </div>
+          </div>
+
+
+          <div class="d-flex justify-content-start align-items-center mb-4">
+            <div class="form-outline form-white w-100">
+              <input type="text" id="form1Example1" class="form-control" />
+              <label class="form-label" for="form1Example1">User Name</label>
+            </div>
+          </div>
+
+
+
+          <div class="d-flex justify-content-start align-items-center mb-4">
+            <div class="form-outline form-white w-100">
+              <input type="text" id="form1Example3" class="form-control" />
+              <label class="form-label" for="form1Example3">E-mail</label>
+            </div>
+          </div>
+
+
+
+          <div class="d-flex justify-content-start align-items-center pb-3">
+            <div class="form-outline form-white w-100">
+              <input type="password" id="form1Example4" class="form-control" />
+              <label class="form-label" for="form1Example4">Password</label>
+              <div class="form-helper text-white"> <font color="black"> At least 8 characters and 1 digit </font></div>
+            </div>
+          </div>
+
+
+          <div class="d-flex justify-content-start align-items-center pb-3">
+            <div class="form-outline form-white w-100">
+              <input type="password" id="form1Example4" class="form-control" />
+              <label class="form-label" for="form1Example4">Confirm Password</label>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-start align-items-center pb-3">
+            <div class="form-outline form-white w-100">
+              <input type="date" id="form1Example4" class="form-control" />
+              <label class="form-label" for="form1Example4">DOB</label>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-start align-items-center pb-3">
+            <div class="form-outline form-white w-100">
+              <input type="phone number" id="form1Example4" class="form-control" />
+              <label class="form-label" for="form1Example4">Contact Number</label>
+            </div>
+          </div>
+
+
+        
+            <label for="validationCustom02" class="form-label">Gender</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Male
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                FeMale
+              </label>
+            </div>
+
+
+        </form>
+      </div>
+      <div class="card card-form-2 mb-0 z-depth-0">
+        <div class="card-body">
+          <form class="text-center">
+            <div class="form-check red-checkbox my-3">
+              <input class="form-check-input ms-auto" type="checkbox" value="" id="flexCheckDefault1" checked />
+              <label class="form-check-label" for="flexCheckDefault1">
+                Subscribe to our newsletter
+              </label>
+            </div>
+
+
+            <button class="btn btn-outline-danger btn-rounded btn-block my-4 z-depth-0"
+              type="submit">Register</button>
+            <p>or sign up with:</p>
+            <div class="pointer" >
+            <i style="font-size:24px"  class="fa">&#xf1a0; </i>
+            <i style="font-size:24px" class="fa">&#xf09a;</i>
+            <i style="font-size:24px" class="fa">&#xf16d;</i>
+            <i style="font-size:24px" class="fa">&#xf26b;</i>
+          </div>
+          
+            <!-- <i class="fab fa-lg fa-twitter pink-accent-text px-2"></i>
+            <i class="fab fa-lg fa-linkedin-in pink-accent-text px-2"></i> -->
+            <hr>
+            <p>By clicking
+              <em>Sign up</em> you agree to our
+              <a class="pink-accent-text" href="#!" target="_blank">terms of service</a> and
+              <a class="pink-accent-text" href="#!" target="_blank">terms of service</a>. </p>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+</div>
+
+<!-- FOOTER STARTS HERE -->
+
+<footer class="footer-section">
+  <div class="container">
+      <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <div class="cta-text">
+                          <h4>Find us</h4>
+                          <span>1010 Avenue, sw 54321, chandigarh</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-phone"></i>
+                      <div class="cta-text">
+                          <h4>Call us</h4>
+                          <span>9876543210 0</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="far fa-envelope-open"></i>
+                      <div class="cta-text">
+                          <h4>Mail us</h4>
+                          <span>mail@info.com</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer-content pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-lg-4 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-logo">
+                          <a href="index.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" class="img-fluid" alt="logo"></a>
+                      </div>
+                      <div class="footer-text">
+                          <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                          elit,Lorem ipsum dolor sit amet.</p>
+                      </div>
+                      <div class="footer-social-icon">
+                        <span>Follow us</span>
+                        <a href="https://twitter.com/"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+                        <a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp" style="font-size:24px"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fa fa-youtube-play" style="font-size:24px"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fa fa-facebook-square" style="font-size:24px"></i></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3>Useful Links</h3>
+                      </div>
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">about</a></li>
+                          <li><a href="#">services</a></li>
+                          <li><a href="#">portfolio</a></li>
+                          <li><a href="#">Contact</a></li>
+                          <li><a href="#">About us</a></li>
+                          <li><a href="#">Our Services</a></li>
+                          <li><a href="#">Expert Team</a></li>
+                          <li><a href="#">Contact us</a></li>
+                          <li><a href="#">Latest News</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3>Subscribe</h3>
+                      </div>
+                      <div class="footer-text mb-25">
+                          <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                      </div>
+                      <div class="subscribe-form">
+                          <form action="#">
+                              <input type="text" placeholder="Email Address">
+                              <button><i class="fab fa-telegram-plane"></i></button>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="copyright-area">
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                  <div class="copyright-text">
+                    <p>Copyright &copy; 2018, All Right Reserved <a href="../index.html">DoctorOnGo</a></p>
+                  </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                  <div class="footer-menu">
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">Terms</a></li>
+                          <li><a href="#">Privacy</a></li>
+                          <li><a href="#">Policy</a></li>
+                          <li><a href="#">Contact</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<!-- FOOTER ENDS HERE -->
+
+
+  </body>
+</html>
