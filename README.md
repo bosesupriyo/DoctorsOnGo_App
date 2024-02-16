@@ -2,8 +2,7 @@
 
   Visit the website -> https://bosesupriyo.github.io/DoctorsOnGo_App/
 
-OUTPUT - 
-
+OUTPUT IN VIDEO  - 
 
 https://github.com/bosesupriyo/DoctorsOnGo_App/assets/124809398/15aae555-e856-4f1c-bf8a-3d1e4c6c867a
 https://github.com/bosesupriyo/DoctorsOnGo_App/assets/124809398/3a5e31ac-f676-4bf4-a58b-ac26e2897428
